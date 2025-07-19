@@ -31,9 +31,18 @@ Unlike traditional big data tools like Hadoop MapReduce, Spark stores intermedia
 | GraphX      | Graph computation engine                      |
 
 ---
+## Intro to pySpark
+Before going into installation, let’s understand what PySpark is. PySpark allows you to leverage the massive computational power of Apache Spark using Python. Whether you’re analyzing terabytes of data, building machine learning models, or running ETL (Extract, Transform, Load) pipelines, PySpark allows you to work with data more efficiently than ever.
 
 ## 🔧 Getting Started with PySpark (Python API)
 
-### 1. Install PySpark:
+### install Java (I used jdk 17 on ubuntu 22.0.4 LTS)
 ```bash
+sudo apt install --upgrade openjdk-17-jdk
+```
+
+### 1. Install PySpark (v4.0.0):
+```bash
+
 pip install pyspark
+```
